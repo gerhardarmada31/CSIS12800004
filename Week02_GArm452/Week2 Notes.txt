@@ -1,0 +1,28 @@
+Unordered list <ul> with <li>
+like bullets
+ordered list, <ol> with <li>
+like 1,2,3,4... a,b,c,d.... i, ii,iii,iv,
+
+dont do empty list
+
+.. means going up to another level in path.
+navigation link and elements
+
+relative path.
+use relative path most of the time.
+
+margin is the space between 2 spaces. 
+
+a element means anchor 
+img source
+
+CSS
+
+id- selector
+class selector
+
+margin: 5px all sides
+margin 5px (top,bottom) 10ox (left and right)
+margin: 5px top, 10px right, 10ox bottom, 2px left.
+
+border:  size, style, color 
