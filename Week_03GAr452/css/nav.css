@@ -1,0 +1,30 @@
+nav{
+    margin: 20px 0px;
+}
+
+/* descendant selector */
+nav ul{
+    padding: 0px;
+    margin:0px;
+    list-style-type: none;
+}
+
+/* child selector*/
+nav > ul> li {
+text-align: center;
+text-decoration: none;
+line-height: 2em;
+display: inline-block;
+width: 200px;
+}
+
+nav > ul >li>a:hover{
+   /* display: block;
+    text-decoration: none;*/
+    background-color: teal;
+    color: black;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-radius: 5px 5px 0 0;
+}

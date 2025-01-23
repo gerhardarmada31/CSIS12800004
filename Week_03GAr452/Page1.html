@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+		<title>Lecture 2 demo: Links, Images, CSS and Table</title>		
+		<!-- embedded style -->
+		 <style>
+			.text{
+				color:green;
+			}
+			#special{
+				background-color: tan;
+				color:white;
+			}
+		 </style>
+		 <link href="css/styles.css" rel="stylesheet">
+		 <link href="css/nav.css" rel="stylesheet">
+    </head>
+
+    <body>
+		<header>
+			<h1>Lecture 2 Hands-on</h1>
+			<h2>CSS</h2>						
+		</header>
+		<nav>
+		<ul>
+			<li><a href="Page1.html"> Page 1</a></li>
+			<li><a href="Page2.html"> Page 2</a></li>
+			<li><a href="Page3.html"> Page 3</a></li>
+		
+		</ul>
+	</nav>		
+				
+        <article id="main">
+			<p>
+				The body's background color is <strong>inherited</strong> 
+				by the article and its child elements, 
+				unless there is more <strong>specific</strong> rules overwritting it.
+			</p>
+			<hr id="short">
+
+			<section>				
+				<p>	
+					This section inherited the article's setting.				
+					However the following section is styled by either inline or embedded CSS. 					
+				</p>		
+				All &lt;h1&gt; is styled to have specific font and background color in an external CSS.
+			</section>
+			
+			<section class="example">
+				<h1>Example</h1>
+				<p>
+					The first child node of the section with example class.
+				</p>
+				
+				<p style="color:blue;">
+                	The second child, a paragraph. Inline styled to be blue. 
+            	</p>
+            
+				<p class="text">
+					The third paragraph, styled with embedded <strong>class selector</strong> 
+					to be green.
+					<br>
+					<span id="special">
+						What is the color of this span? red or green or blue? 
+						I am a super special span!
+					</span>
+				</p>
+				<p class="text" style="color:red;">
+					This paragraph will be both styled with inline and embedded
+				</p>
+			</section>
+			
+        </article>
+		<hr>
+		<footer>
+			Copyright &copy; Douglas College
+		</footer>
+
+    </body>
+
+</html>
