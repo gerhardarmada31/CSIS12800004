@@ -1,0 +1,36 @@
+nav{
+    margin: 20px 0px;
+}
+
+/* descendant selector */
+nav ul{
+    padding: 0px;
+    margin:0px;
+    list-style-type: none;
+}
+
+/* child selector */
+nav > ul > li{
+    text-align: center;
+    line-height: 2em;
+    width:25%;
+    float:left;
+}
+
+nav > ul > li > a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+nav > ul > li > a:hover{
+    background-color: teal;
+    color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px 5px 0 0;
+}
